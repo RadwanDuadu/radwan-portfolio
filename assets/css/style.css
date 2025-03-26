@@ -27,10 +27,12 @@ h1 {
 /* Header */
 header {
     background-color: rgb(10, 10, 10);
+    color: rgb(152, 235, 235);
 }
 
 .logo img{
-    max-height: 70px;
+    max-height: 100px;
+    margin-top: -10px;
 }
 /* Main */
 main {
