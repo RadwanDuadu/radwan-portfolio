@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display:none;
+}
+
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -22,7 +27,6 @@ body {
 
 h1 {
     font-family: 'Merriweather', sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(152, 235, 235);
 }
@@ -38,7 +42,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items:center;
 }
 
 header a {
@@ -47,14 +51,11 @@ header a {
 }
 
 .logo img{
-    max-height: 100px;
-    margin-top: -5px;
-    margin-bottom: -8px;
+    display:block;
+    height:auto;
+    width:115px;
 }
 
-#logoName {
-    text-align: center;
-}
 
 #menu {
     font-size: 110%;
@@ -76,7 +77,7 @@ nav {
     background-color: rgb(10, 10, 10);
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -100,10 +101,55 @@ main {
     background-color: bisque;
      /* Make main element take up any surplus space to push footer down */
      flex: 1 0 auto;
-     margin-top: 95px;
+     margin-top: 93px;
 }
 
 /* Footer */
 footer {
     background-color: brown;
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        font-size: 150%;
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .logo img{
+        display:block;
+        height:auto;
+        width:150px;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 120px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #c2de23;
+    }
 }
