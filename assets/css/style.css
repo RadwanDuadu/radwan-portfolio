@@ -106,7 +106,8 @@ main {
 
 /* Footer */
 footer {
-    background-color: brown;
+    background-color: rgb(10, 10, 10);
+    color: rgb(152, 235, 235);
 }
 
 
