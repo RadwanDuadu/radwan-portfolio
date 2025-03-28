@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-
 /* General styles */
 body {
   min-height: 100vh;
@@ -85,15 +84,11 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  .navbar-brand img {
-    height: auto;
-    width: 180px;
+  .navbar-nav {
+    font-size: 150%;
   }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  #menu a:hover {
-    border-bottom: 1px solid #c2de23;
-  }
 }
