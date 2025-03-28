@@ -26,23 +26,7 @@ h1 {
 }
 
 /* Header */
-header {
-  background-color: rgb(0, 0, 0);
-  color: rgb(152, 235, 235);
-  padding: 0 1rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-header a {
-  text-decoration: none;
-  color: inherit;
-}
 
 /* Navbar styles */
 
@@ -67,19 +51,15 @@ footer {
   background-color: rgb(0, 0, 0);
 }
 
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
+ #social-networks {
+  padding: 20px 0 !important;
+} 
 
 #social-networks i {
-  font-size: 160%;
-  padding: 5%;
+  font-size: 160% ;
+  padding: 5%  !important;
   color: rgb(152, 235, 235);
-}
+} 
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
