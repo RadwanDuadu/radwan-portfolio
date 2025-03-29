@@ -17,17 +17,34 @@ body {
   /* Generic project styles */
   color: #3a3a3a;
   font-family: "Lato", sans-serif;
+  background-color: #1a1a2e
 }
 
-h1 {
+h1,h2 {
   font-family: "Merriweather", sans-serif;
   letter-spacing: 2px;
-  color: rgb(152, 235, 235);
+  color: #08fcf8; /* dark-blue */
 }
 
 /* Header */
+header {
+    color: #1aeef6;
+    background-color: #16213e;
+    margin-top: 110px;
+}
+#hero {
+    background-color: #16213e; /* light grey */
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
+}
 
-
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(43, 35, 35, 0.7);
+}
 /* Navbar styles */
 
 .bg-danger {
@@ -41,7 +58,8 @@ h1 {
 
 /* Main */
 main {
-  background-color: bisque;
+  background-color: #1b1b1b;
+   /* #1a1a2e, #16213e */
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
 }
