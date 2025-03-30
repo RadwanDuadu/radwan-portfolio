@@ -17,14 +17,14 @@ body {
   /* Generic project styles */
   color: #3a3a3a;
   font-family: "Lato", sans-serif;
-  background-color: #1a1a2e;
+  background-color: #16213e;
 }
 
 h1,
 h2 {
   font-family: "Merriweather", sans-serif;
   letter-spacing: 2px;
-  color: #08fcf8; 
+  color: #08fcf8;
 }
 
 /* Header */
@@ -34,9 +34,11 @@ header {
   margin-top: 110px;
 }
 
-header h1, header h2 {
-    color:silver;
+header h1,
+header h2 {
+  color: silver;
 }
+
 #hero {
   background-color: #16213e; /* light grey */
   background-image: url("../images/hero.jpg");
@@ -64,20 +66,28 @@ header h1, header h2 {
 
 /* Main */
 main {
-  background-color: #1b1b1b;
+  background-color: #16213e;
   /* #1a1a2e, #16213e */
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
 }
 
 /* About section */
-
 #about {
   background-color: white;
 }
 
 #about h2 {
-    color: #1a1a2e;;
+  color: #1a1a2e;
+}
+
+.section {
+  margin-top: 110px;
+  background-color: whitesmoke;
+}
+
+.section h2 {
+    color: #000000;
 }
 
 /* Footer */
