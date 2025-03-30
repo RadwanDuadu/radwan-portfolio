@@ -33,6 +33,10 @@ header {
   background-color: #16213e;
   margin-top: 110px;
 }
+
+header h1, header h2 {
+    color:silver;
+}
 #hero {
   background-color: #16213e; /* light grey */
   background-image: url("../images/hero.jpg");
@@ -45,6 +49,7 @@ header {
 #cover-text {
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(43, 35, 35, 0.7);
+  padding: 5px;
 }
 /* Navbar styles */
 
