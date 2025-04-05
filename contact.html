@@ -50,8 +50,41 @@
     </nav>
 
     <!--Main content-->
-    <main>
-        Main content
+    <main id="contactpage">
+        <section id="Contact" class="container">
+            <div class="section row justify-content-center">
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">Contact</h2>
+                    <p class="mt-4">
+                        Whether you're interested in collaborating, have questions about my work, or would like a copy
+                        of my CV, feel free to reach out. I'm always open to new opportunities and meaningful
+                        conversations about how we can build something great together.
+                    </p>
+                </div>
+                <div class="col-12 col-md-10 col-lg-8">
+                    <!-- Add your form here -->
+                    <form action="https://formspree.io/f/xnnpoadb" method="POST" class="row g-3 sharp-corners">
+                        <div class="col-lg-6">
+                            <label for="full-name" class="form-label">Full Name</label>
+                            <input type="text" name="fullname" class="form-control" id="full-name" required />
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" required />
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary custom-button">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer-->
