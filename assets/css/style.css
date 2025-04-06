@@ -27,6 +27,11 @@ h2 {
   color: #08fcf8;
 }
 
+.sharp-corners,
+.sharp-corners * {
+  border-radius: 0;
+}
+
 /* Header */
 header {
   color: #1aeef6;
@@ -87,21 +92,43 @@ main {
 }
 
 .section h2 {
-    color: #000000;
+  color: #000000;
 }
 
 /* work experience */
+.workpage {
+  background-color: whitesmoke;
+}
 #raptlogo {
-    border-radius: 20%;
+  border-radius: 20%;
+}
+
+/* Portfolio */
+
+#portfolio {
+  background-color: #dbdcde; /* light grey */
+}
+
+#portfolio .card-title {
+  color: #1f7798; /* mid blue */
+  font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+  background-color: #1f7798; /* mid blue */
+}
+
+#portfolio .card-text {
+  min-height: 120px;
 }
 
 /* contact page  */
 #contactpage {
-    background-image: url('../images/hero.jpg');
+  background-image: url("../images/hero.jpg");
 }
 
 form {
-    padding: 10px;
+  padding: 10px;
 }
 /* Footer */
 footer {
@@ -122,6 +149,10 @@ footer {
 @media screen and (min-width: 768px) {
   .navbar-nav {
     font-size: 150%;
+  }
+  /* Fixes all portfolio cards being too tall on l screens */
+  #portfolio .card-text {
+    min-height: auto;
   }
 }
 
