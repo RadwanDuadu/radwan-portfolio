@@ -122,6 +122,20 @@ main {
   min-height: 120px;
 }
 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.fixed-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.custom-padding {
+  padding: 5px;
+}
+
 /* contact page  */
 #contactpage {
   background-image: url("../images/hero.jpg");
@@ -154,8 +168,4 @@ footer {
   #portfolio .card-text {
     min-height: auto;
   }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
 }
