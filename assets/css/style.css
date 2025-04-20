@@ -2,6 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@300&display=swap");
 
+/* ROOT VARIABLES */
+:root {
+  --radwanBlack: #000000; /* color: var(--radwanBlack); */
+  --radwanEclipse: #3a3a3a; /* color: var(--radwanEclipse); */
+  --radwanBlue: #16213e; /* color: var(--radwanBlue); */
+  --radwanAqua: #08fcf8; /* color: var(--radwanAqua); */
+  --radwanSilver: #c0c0c0; /* color: var(--radwanSilver); */
+  --radwanWhite: #f5f5f5; /* color: var(--radwanWhite); */
+  --radwanMidnight: #1a1a2e; /* color: var(--radwanMidnight); */
+  --radwanGrey: #dbdcde; /* color: var(--radwanGrey); */
+  --radwanAllports: #1f7798; /* color: var(--radwanAllports); */
+  --radwanSolitude: #f8f9fa; /* color: var(--radwanSolitude); */
+  --radwanGreen: #333333; /* color: var(--radwanGreen); */
+  --radwanTurquoise: #1aeef6; /* color: var(--radwanTurquoise); */
+}
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
   padding: 0;
@@ -15,16 +31,16 @@ body {
   display: flex;
   flex-direction: column;
   /* Generic project styles */
-  color: #3a3a3a;
+  color: var(--radwanEclipse);
   font-family: "Lato", sans-serif;
-  background-color: #16213e;
+  background-color: var(--radwanBlue);
 }
 
 h1,
 h2 {
   font-family: "Merriweather", sans-serif;
   letter-spacing: 2px;
-  color: #08fcf8;
+  color: var(--radwanAqua);
 }
 
 .sharp-corners,
@@ -34,19 +50,19 @@ h2 {
 
 /* Header */
 header {
-  color: #1aeef6;
-  background-color: #16213e;
+  color: var(--radwanTurquoise);
+  background-color: var(--radwanBlue);
   margin-top: 110px;
 }
 
 header h1,
 header h2 {
-  color: silver;
+  color: var(--radwanSilver);
   text-shadow: 0 0 5px black;
 }
 
 #hero {
-  background-color: #16213e; 
+  background-color: var(--radwanBlue);
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: 50% 70%;
@@ -62,7 +78,7 @@ header h2 {
 
 /* Navbar styles */
 .bg-danger {
-  background-color: #000000 !important;
+  background-color: var(--radwanBlack) !important;
 }
 
 .navbar-brand img {
@@ -72,65 +88,65 @@ header h2 {
 
 /* Main */
 main {
-  background-color: #16213e;
+  background-color: var(--radwanBlue);
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
 }
 
 /* About section */
 #about {
-  background-color: white;
+  background-color: var(--radwanWhite);
 }
 
 #about h2 {
-  color: #1a1a2e;
+  color: var(--radwanMidnight);
 }
 
 .section {
   margin-top: 110px;
-  background-color: whitesmoke;
+  background-color: var(--radwanWhite);
 }
 
 .section h2 {
-  color: #000000;
+  color: var(--radwanBlack);
 }
 
 /* work experience */
 .workpage {
-  background-color: whitesmoke;
+  background-color: var(--radwanWhite);
 }
 #raptlogo {
   border-radius: 20%;
 }
 
 .timeline-logo img {
-    display: block;
-    margin: 0 auto;
-    border: none !important; /* removes any Bootstrap border */
-  }
+  display: block;
+  margin: 0 auto;
+  border: none !important; /* removes any Bootstrap border */
+}
 
 /* 404 page  */
 .errorpage {
-    margin-top: 130px;
-    padding: 15px;
-    background-color: whitesmoke;
+  margin-top: 130px;
+  padding: 15px;
+  background-color: var(--radwanWhite);
 }
 /* Portfolio */
 
 #portfolio,
 #hobbies {
-  background-color: #dbdcde; 
+  background-color: var(--radwanGrey);
 }
 
 #portfolio .card-title,
 #hobbies .card-title {
-  color: #1f7798; 
+  color: var(--radwanAllports);
   font-size: 1.2rem;
 }
 
 #portfolio .btn-outline-secondary:hover,
 #hobbies .btn-outline-secondary:hover {
-  background-color: #1f7798; 
+  background-color: var(--radwanAllports);
 }
 
 #portfolio .card-text,
@@ -164,8 +180,8 @@ form {
 #skills .skill-card {
   text-align: center;
   padding: 20px;
-  border: 1px solid #ddd;
-  background-color: #f8f9fa;
+  border: 1px solid var(--radwanGrey);
+  background-color: var(--radwanSolitude);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -183,15 +199,15 @@ form {
 
 #skills h5 {
   font-size: 1.2rem;
-  color: #333333;
+  color: var(--radwanGreen);
 }
 
 .lead {
-    color:#08fcf8;
+  color: var(--radwanAqua);
 }
 /* Footer */
 footer {
-  background-color: rgb(0, 0, 0);
+  background-color: var(--radwanBlack);
 }
 
 #social-networks {
@@ -215,9 +231,9 @@ footer {
   }
 }
 
- /* Show logo only when screen is > 800px */
- @media (max-width: 992px) {
-    .timeline-logo {
-      display: none !important;
-    }
+/* Show logo only when screen is > 800px */
+@media (max-width: 992px) {
+  .timeline-logo {
+    display: none !important;
   }
+}
