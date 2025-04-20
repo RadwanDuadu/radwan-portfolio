@@ -256,7 +256,7 @@ There are no remaining major differences between the local version when compared
 
 ## Credits
 
-
+All content, images, and media presented on this site are credited appropriately below. Ownership and attribution are respected with references below.
 
 ### Content
 
