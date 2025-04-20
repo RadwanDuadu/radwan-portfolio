@@ -77,8 +77,6 @@ I utilized the capabilities of ChatGPT to generate a dark color palette for a mo
 
 To enhance the user experience, I also made adjustments to the resume section by implementing a lighter and brighter background. This design choice significantly improves readability, making it easier for visitors to scan and review my professional experience and skills. With ChatGPT's assistance, I was able to achieve a cohesive and visually appealing design that balances style and functionality.
 
-* still to change are all rgb values to hex vales all white or silver to hex value *
-
 - `#000000` (Black) navbar background colour.
 - `#3a3a3a` (Eclipse) primary text colour.
 - `#16213e` (Blue Whale) background colour for resume and contact page.
@@ -113,9 +111,8 @@ To enhance the user experience, I also made adjustments to the resume section by
 | As a Visitor | I want to learn about the portfolio owner's hobbies so that I can connect with their interests and explore more about them. | The website features a hobbies section with individual cards that display a title or summary, link to external websites for more information, and are styled consistently and responsively across all screen sizes. |
 | As a Visitor | I want to view the portfolio owner's technical skills and tools in the Contact section so that I can quickly assess their areas of expertise before reaching out.| The Contact section includes a visually styled skills grid with icons and labels to display the user's key technologies (e.g., HTML, CSS, JavaScript, Bootstrap, Git, GitHub, etc.).|
 | As a Visitor | I want to be redirected to a custom 404 page when I enter a non-existent URL so that I receive a relevant and personal message instead of a default error page. | A custom 404.html page exists and provides a personal message with navigation options. |
-| As a Devloper | I want my HTML code to pass the W3C validation with no issues so that I ensure proper coding standards. | No validation errors in the Validator for CSS code. No validation errors in the Validator for HTML code. |
-| As a Visitor | x | Y |
-| As a Visitor | x | Y |
+| As a Devloper | I want my HTML code to pass the W3C validation with no issues so that I ensure proper coding standards. | No validation errors in the Validator for HTML code.|
+| As a Devloper | I want my CSS code to pass the W3C validation with no issues so that I ensure proper coding standards. | No validation errors in the Validator for CSS code.|
 
 ## Wireframes
 
@@ -148,7 +145,7 @@ I've taken the initiative to enhance my project by incorporating additional feat
 | Hobbies | The Hobbies feature showcases Radwan Duadu's personal interests and passions outside of work, highlighting three unique hobbies through Bootstrap cards with images and brief descriptions. Allowing visitors to learn more about Radwan's interests and passions. | ![screenshot](documentation/features/hobbies.png) |
 | Skills | The Skills feature showcases Radwan Duadu's technical expertise and proficiency in various programming languages and tools, highlighting his skills through Bootstrap cards with icons and brief descriptions. Each skill card includes a percentage or level of proficiency, allowing visitors to quickly understand Radwan's strengths and capabilities. | ![screenshot](documentation/features/skills.png) |
 | Project Portfolio | The Project Portfolio feature showcases Radwan Duadu's previous work and accomplishments, highlighting three completed projects through Bootstrap cards with images, brief descriptions, and links to the project's GitHub page or website. Each project card provides a glimpse into Radwan's problem-solving skills, technical expertise, and ability to deliver results, allowing visitors to explore his work in more detail. | ![screenshot](documentation/features/portfolio.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/errorpage.png) |
 
 ### Future Features
 
@@ -252,70 +249,47 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 
 ### Local VS Deployment
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site. Generally, there shouldn't be [m]any major differences, so if you honestly cannot find any differences, feel free to use the following example:
-
-⚠️ --- END --- ⚠️
+- The creation of the 404 page could not be tested on the local machine due to the use of the VSCode-provided server, which does not support local testing of 404 pages. However, after pushing the 404 page to GitHub, it became possible to test it by appending a test path to the website link. The new link for testing the 404 page is 
+https://radwanduadu.github.io/radwan-portfolio/test.
 
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
 
-⚠️ INSTRUCTIONS ⚠️
 
-In the following sections, you need to reference where you got your content, media, and any extra help. It is common practice to use code from other repositories and tutorials (which is totally acceptable), however, it is important to be very specific about these sources to avoid potential plagiarism.
-
-⚠️ --- END ---⚠️
 
 ### Content
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links for any borrowed code snippets, elements, and resources. Ideally, you should provide an actual link to every resource used, not just a generic link to the main site. If you've used multiple components from the same source (such as Bootstrap), then you only need to list it once, but if it's multiple Codepen samples, then you should list each example individually. If you've used AI for some assistance (such as ChatGPT or Perplexity), be sure to mention that as well. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 | Source | Notes |
 | --- | --- |
 | [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message" |
 | [Love Running](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
+| [Bootstrap portfolio](https://codeinstitute.net) | Code Institute bootstrap walkthrough project inspiration |
+| [formspree](https://formspree.io/) | Allows vistors to contact site owner using forms |
 | [ChatGPT](https://chatgpt.com) | Help with code logic and explanations |
 
 ### Media
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links to any media files borrowed from elsewhere (images, videos, audio, etc.). If you're the owner (or a close acquaintance) of some/all media files, then make sure to specify this information. Let the assessors know that you have explicit rights to use the media files within your project. Ideally, you should provide an actual link to every media file used, not just a generic link to the main site, unless it's AI-generated artwork.
-
-Looking for some media files? Here are some popular sites to use. The list of examples below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links by sending yourself (or Slackbot) the following command: `!freemedia`.
-
-- Images
-    - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
-    - [Pixabay](https://pixabay.com)
-    - [Lorem Picsum](https://picsum.photos) (placeholder images)
-    - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
-    - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-- Video
-    - [Videvo](https://www.videvo.net)
-- Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
-
-A few examples have been provided below to give you some ideas on how to do your own Media credits.
-
-⚠️ --- END ---⚠️
+The images utilized in this project were sourced from publicly available results on Google search.
 
 | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
-| [Love Running](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
+| [Love Running](https://codeinstitute.net) | Sample images provided from the walkthrough project |
+| [Bootstrap portfolio](https://codeinstitute.net) | Sample images provided from the walkthrough project |
+| [CompressPNG](https://compresspng.com) | Used for Image Compression |
+| [Cycling image](https://www.healthxchange.sg/fitness-exercise/exercise-tips/cycling-sitting-posture-fitness-level) | Hobby cycling image|
+| [Starry Space](https://www.freepik.com/premium-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_39675093.htm) | Starry Space hero image |
+| [Space satellite](https://www.istockphoto.com/photos/space-satellites) | Space sattelite image |
+| [Novel Reading](https://unsplash.com/photos/person-holding-string-lights-on-opened-book-9pw4TKvT3po) | Hobby Reading image |
+| [Library](https://www.freepik.com/premium-ai-image/generative-ai-old-library-with-many-books_51813885.htm) | Library portfolio image |
+| [Genpact logo](https://aws.amazon.com/marketplace/seller-profile?id=seller-da4cx2zwvsjos) | Genpact logo image |
+| [Telus logo](https://www.wem.ca/directory/stores/telus-phase-i) | Telus logo image |
+| [RaptTouch logo](https://www.crunchbase.com/organization/rapt-touch) | RaptTouch logo image |
+| [AI Image Generate](https://ww.media.io/ai/image-to-image) | Avatar image generator |
+| [Technology icons](https://www.iconpacks.net/) | Technology and tool icons |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
-
 
 ### Acknowledgements
 
