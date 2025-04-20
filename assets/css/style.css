@@ -232,7 +232,7 @@ footer {
 }
 
 /* Show logo only when screen is > 998px */
-@media (max-width: px) {
+@media (max-width: 998px) {
   .timeline-logo {
     display: none !important;
   }
