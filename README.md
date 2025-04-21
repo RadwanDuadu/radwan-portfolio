@@ -185,8 +185,8 @@ I've taken the initiative to enhance my project by incorporating additional feat
 
 | Link | Screenshot |
 | --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues/RadwanDuadu/radwan-portfolio)](https://www.github.com/RadwanDuadu/radwan-portfolio/issues) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-closed/RadwanDuadu/radwan-portfolio)](https://www.github.com/RadwanDuadu/radwan-portfolio/issues?q=is%3Aissue+is%3Aclosed) | ![screenshot](documentation/gh-issues-closed.png) |
+| [![GitHub issues](https://img.shields.io/github/issues/RadwanDuadu/radwan-portfolio)](https://www.github.com/RadwanDuadu/radwan-portfolio/issues) | ![screenshot](documentation/open-issues.png) |
+| [![GitHub closed issues](https://img.shields.io/github/issues-closed/RadwanDuadu/radwan-portfolio)](https://www.github.com/RadwanDuadu/radwan-portfolio/issues?q=is%3Aissue+is%3Aclosed) | ![screenshot](documentation/done-issues.png) |
 
 ### MoSCoW Prioritization
 
