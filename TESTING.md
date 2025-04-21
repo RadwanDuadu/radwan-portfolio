@@ -3,11 +3,7 @@
 > [!NOTE]
 > Return back to the [README.md](README.md) file.
 
-⚠️ INSTRUCTIONS ⚠️
-
-In the following sections, you need to convince the assessors that you have conducted enough manual testing to legitimately believe that the site works well. Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-⚠️ --- END --- ⚠️
+The following section outlines the testing, validation, and final results of the project. It details how each feature was verified for functionality, compatibility, and responsiveness.
 
 ## Code Validation
 
@@ -70,55 +66,39 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 Defensive programming was manually tested with the below user acceptance testing:
 
-| Page | Expectation | Test | Result | Screenshot |
+| Page/Section | Expectation | Test | Result | Screenshot |
 | --- | --- |  --- |  --- |  --- |
-| Home | Feature is expected to display examples of why users should join. | Verified that the page displays the club’s mission and purpose in a clear and concise manner. | The mission and purpose were displayed as expected. | ![screenshot](documentation/defensive/home.png) |
+| Home | This feature displays the user's bio and a brief "About Me" section, including hobbies and interests. It gives visitors to the portfolio a quick insight into the user's personality and background. | Verified that the bio, about me, and hobbies sections display content clearly and accurately as intended. | The bio, about me, and hobbies sections function correctly | ![screenshot](documentation/responsiveness/desktop-home.png) |
 | | Feature is expected to have accessible navigation links. | Checked navigation links for correct functionality and accessibility. | Navigation links were functional and accessible. | ![screenshot](documentation/defensive/navigation.png) |
 | | Feature is expected to be fully responsive. | Resized the browser window and tested on multiple devices (mobile, tablet, desktop). | The page was responsive across all tested screen sizes. | ![screenshot](documentation/defensive/responsive.png) |
-| Schedule/Timetable | Feature is expected to show the running schedule/timetable for sessions. | Confirmed that the page contains a structured table or list with session timings. | Timetable was displayed as expected. | ![screenshot](documentation/defensive/schedule.png) |
-| Events | Feature is expected to display details of different running events. | Verified that the page lists upcoming events with relevant details. | Event details were displayed as expected. | ![screenshot](documentation/defensive/events.png) |
-| Gallery | Feature is expected to showcase a gallery of past events. | Verified that the gallery contains clear images that aren't stretched, pixelated, and fully responsive. | Images are properly sized, and respond well to different device sizes. | ![screenshot](documentation/defensive/gallery.png) |
-| Sign-Up Form | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/signup01.png) |
-| | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/signup02.png) |
-| Social Links | Feature is expected to include working links to the club’s social platforms (Instagram, Facebook, etc.). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | ![screenshot](documentation/defensive/socialmedia.png) |
-| 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
+| About Me | The "About Me" section should feature an avatar image accompanied by a brief overview of the individual's professional background and technical expertise. | Confirmed that the page contains a section with avatar image and short desciption. | About me section was displayed as expected. | ![screenshot](documentation/defensive/about-section.png) |
+| Work Experience | The "Work Experience" section should feature previous work history accompanied by a brief overview of the work history. | Confirm that the work exepierence is displayed in appropriate format and responsive to different screen size.  | Work experience is displayed as expected | ![screenshot](documentation/defensive/work-experience.png) |
+| Hobbies | Feature is expected to display hobies of Radwan Duadu | Verified that the page lists upcoming events with relevant details. | Event details were displayed as expected. | ![screenshot](documentation/defensive/hobbies-section.png) |
+| Portfolio | The Project Portfolio feature is expected to present three completed projects using Bootstrap cards. Each card should include an image, brief description, and a link to the relevant GitHub repository or live site. | Each card was checked to ensure the image displays correctly, text is clear, and external links work as intended. | All project cards rendered correctly across devices, maintaining visual consistency and responsive behavior. Links were functional and content accurately reflected Radwan Duadu’s technical strengths and previous work. | ![screenshot](documentation/defensive/portfolio.png) |
+| Skills | Feature is expected to display skills and technolgies proficiency | Verified that the page lists user programming language and technologies | skills section displays skills in a clear and readable format | ![screenshot](documentation/defensive/skills.png) |
+| Contact Form | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/empty-input.png) |
+| | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/valid-input.png) |
+| Social Links | Feature is expected to include working links to the club’s social platforms (Instagram, Facebook, etc.). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | ![screenshot](documentation/features/footer.png) |
+| 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/features/errorpage.png) |
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome | Screenshot | 
 | --- | --- | --- | --- | 
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature08.png) |
+| As a visitor |  I want to learn about the portfolio owner on the homepage so that I can understand their background and expertise | The home page includes an About Me section with a brief bio and an engaging introduction | ![screenshot](documentation/responsiveness/desktop-home.png) | 
+| As a Visitor |  I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. | Site layout and navigation are intuitive, allowing easy access to different sections. | ![screenshot](documentation/features/navbar.png) |
+| As a Visitor | I want to view the portfolio owner's resume, including work experience, so that I can assess their qualifications. | The Resume page includes past work experience, education, and relevant skills. | ![screenshot](documentation/features/work.png) | 
+| As a Visitor | I want to contact the portfolio owner through a contact form so that I can reach out for potential opportunities. | The contact page includes a contact form with fields for name, email, and message. | ![screenshot](documentation/features/contact.png) | 
+| As a Visitor |  I want to see a visually appealing hero image with a short one-sentence bio so that I can quickly understand who the portfolio owner is. | A high-quality hero image is displayed prominently, and a brief bio is visible on the home page. | ![screenshot](documentation/features/hero-image.png) | 
+| As a Visitor | I want to see a footer on all pages containing social media icons that link to the portfolio owner's external profiles so that I can connect with them on different platforms. | The footer includes social media icons that open in new tabs and display correctly on all screen sizes with appropriate alt text. | ![screenshot](documentation/features/footer.png) | 
+| As a Visitor | I want to see the portfolio owner's completed projects so that I can evaluate their work and explore it further. | The Resume page includes a section that showcases projects in card format, each containing an image, title, and short description. Clicking the card redirects to the project's GitHub or live site. | ![screenshot](documentation/features/portfolio.png) | 
+| As a Visitor | I want to learn about the portfolio owner's hobbies so that I can connect with their interests and explore more about them. | The website features a hobbies section with individual cards that display a title or summary, link to external websites for more information, and are styled consistently and responsively across all screen sizes. | ![screenshot](documentation/features/hobbies.png) | 
+| As a Visitor | I want to view the portfolio owner's technical skills and tools in the Contact section so that I can quickly assess their areas of expertise before reaching out.| The Contact section includes a visually styled skills grid with icons and labels to display the user's key technologies (e.g., HTML, CSS, JavaScript, Bootstrap, Git, GitHub, etc.).| ![screenshot](documentation/features/skills.png) |
+| As a Visitor | I want to be redirected to a custom 404 page when I enter a non-existent URL so that I receive a relevant and personal message instead of a default error page. | A custom 404.html page exists and provides a personal message with navigation options. | ![screenshot](documentation/features/errorpage.png) |
+| As a Devloper | I want my HTML code to pass the W3C validation with no issues so that I ensure proper coding standards. | No validation errors in the Validator for HTML code.| ![screenshot](documentation/validation/html--index.png) |
+| As a Devloper | I want my CSS code to pass the W3C validation with no issues so that I ensure proper coding standards. | No validation errors in the Validator for CSS code.| ![screenshot](documentation/validation/css--styles.png) |
 
 ## Bugs
-
-⚠️ INSTRUCTIONS ⚠️
-
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
-
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/RadwanDuadu/radwan-portfolio/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
 
 ### Fixed Bugs
 
@@ -128,30 +108,21 @@ I've used [GitHub Issues](https://www.github.com/RadwanDuadu/radwan-portfolio/is
 
 All previously closed/fixed bugs can be tracked [here](https://www.github.com/RadwanDuadu/radwan-portfolio/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
 
-![screenshot](documentation/bugs/gh-issues-closed.png)
+![screenshot](documentation/bugs/fixed-bugs.png)
 
 ### Unfixed Bugs
-
-⚠️ INSTRUCTIONS ⚠️
-
-You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-⚠️ --- END --- ⚠️
 
 [![GitHub issues](https://img.shields.io/github/issues/RadwanDuadu/radwan-portfolio)](https://www.github.com/RadwanDuadu/radwan-portfolio/issues)
 
 Any remaining open issues can be tracked [here](https://www.github.com/RadwanDuadu/radwan-portfolio/issues).
 
-![screenshot](documentation/bugs/gh-issues-open.png)
+![screenshot](documentation/bugs/open-issues.png)
 
 ### Known Issues
 
 | Issue | Screenshot |
 | --- | --- |
-| On devices smaller than 375px, the page starts to have horizontal `overflow-x` scrolling. | ![screenshot](documentation/issues/overflow.png) |
-| When validating HTML with a semantic `<section>` element, the validator warns about lacking a header `h2-h6`. This is acceptable. | ![screenshot](documentation/issues/section-header.png) |
+| When validating CSS style file, the validator warns about multiple external warnings. This is acceptable. | ![screenshot](documentation/bugs/css-warnings.png) |
 
 > [!IMPORTANT]
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
