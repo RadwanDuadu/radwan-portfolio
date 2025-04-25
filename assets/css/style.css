@@ -122,7 +122,7 @@ main {
 .timeline-logo img {
   display: block;
   margin: 0 auto;
-  border: none !important; /* removes any Bootstrap border */
+  border: none ;
 }
 
 /* 404 page  */
@@ -210,13 +210,8 @@ footer {
   background-color: var(--radwanBlack);
 }
 
-#social-networks {
-  padding: 20px 0 !important;
-}
-
 #social-networks i {
   font-size: 160%;
-  padding: 5% !important;
   color: rgb(152, 235, 235);
 }
 
